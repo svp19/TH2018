@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+        <android.support.constraint.ConstraintLayout
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".MainActivity">
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:orientation="vertical"
+                android:layout_marginTop="140dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                >
+
+                <LinearLayout
+                    android:id="@+id/button-row-1"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1.08"
+                    android:gravity="center_horizontal">
+
+                    <Button
+                        android:onClick="onClickbuttonclue1"
+                        android:id="@+id/button_clue_1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.33"
+                        android:fontFamily="sans-serif"
+                        android:textSize="29sp"
+                        android:text="@string/label_1"
+                         />
+
+
+                    <Button
+                        android:onClick="onClickbuttonclue2"
+                        android:id="@+id/button_clue_2"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.33"
+                        android:fontFamily="sans-serif"
+                        android:textSize="29sp"
+                        android:text="@string/label_2"
+                        android:enabled="false"/>
+
+                    <Button
+                        android:onClick="onClickbuttonclue3"
+                        android:id="@+id/button_clue_3"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.33"
+                        android:fontFamily="sans-serif"
+                        android:textSize="29sp"
+                        android:text="@string/label_3"
+                        android:enabled="false"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/button-row-2"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
+                    android:orientation="horizontal"
+                    android:weightSum="1.08"
+                    android:gravity="center_horizontal">
+
+
+                    <Button
+                        android:onClick="onClickbuttonclue4"
+                        android:id="@+id/button_clue_4"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.33"
+                        android:fontFamily="sans-serif"
+                        android:textSize="29sp"
+                        android:text="@string/label_4"
+                        android:enabled="false"
+                        />
+
+                    <Button
+                        android:onClick="onClickbuttonclue5"
+                        android:id="@+id/button_clue_5"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.33"
+                        android:fontFamily="sans-serif"
+                        android:textSize="29sp"
+                        android:text="@string/label_5"
+                        android:enabled="false"/>
+
+                    <Button
+                        android:onClick="onClickbuttonclue6"
+                        android:id="@+id/button_clue_6"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.33"
+                        android:fontFamily="sans-serif"
+                        android:textSize="29sp"
+                        android:text="@string/label_6"
+                        android:enabled="false"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/button-row-3"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
+                    android:orientation="horizontal"
+                    android:weightSum="1.08"
+                    android:gravity="center_horizontal">
+
+
+                    <Button
+                        android:onClick="onClickbuttonclue7"
+                        android:id="@+id/button_clue_7"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.33"
+                        android:fontFamily="sans-serif"
+                        android:textSize="29sp"
+                        android:text="@string/label_7"
+                        android:enabled="false"
+                        />
+                    <Button
+                        android:id="@+id/button_clue_gap"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.33"
+                        android:fontFamily="sans-serif"
+                        android:textSize="21sp"
+                        android:text="GOOD LUCK!"
+                        android:enabled="true"/>
+
+                    <Button
+                        android:onClick="onClickbuttonclue8"
+                        android:id="@+id/button_clue_8"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.33"
+                        android:fontFamily="sans-serif"
+                        android:textSize="29sp"
+                        android:text="@string/label_8"
+                        android:enabled="false"/>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </android.support.constraint.ConstraintLayout>
+
+</RelativeLayout>

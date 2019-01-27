@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">TH 2018</string>
+    <string name="title_activity_nav_drawer">NavDrawer</string>
+    <string name="title_clue1_label">Clue 1</string>
+    <string name="title_clue2_label">Clue 2</string>
+    <string name="title_clue3_label">Clue 3</string>
+    <string name="title_clue4_label">Clue 4</string>
+    <string name="title_clue5_label">Clue 5</string>
+    <string name="title_clue6_label">Clue 6</string>
+    <string name="title_clue7_label">Clue 7</string>
+    <string name="title_clue8_label">Clue 8</string>
+
+    <string name="label_1"> 1 </string>
+    <string name="label_2"> 2 </string>
+    <string name="label_3"> 3 </string>
+    <string name="label_4"> 4 </string>
+    <string name="label_5"> 5 </string>
+    <string name="label_6"> 6 </string>
+    <string name="label_7"> 7 </string>
+    <string name="label_8"> 8 </string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="nav_header_title">Treasure Hunt 2018 | IIT Dharwad</string>
+    <string name="action_example">Example action</string>
+    <string name="clues">Clues</string>
+    <string name="enterpassword">Enter Password :</string>
+    <string name="play">BEGIN !</string>
+    <string name="map">Map</string>
+    <string name="scan">Scan</string>
+
+    <string name="description_clue1"> Eagles in an Owl\'s nest.</string>
+    <string name="description_clue2">JUANMARNA\'S QUARES\n - - - - - - - - -\'- \u0020 - - - - -\n
+        9 - G \t 10 - M\n
+        11 - \u0020\u0020  \t 12 - A\n
+        16 - H\u0020 \t 17 - N\n
+        18 - S\u0020 \t 19 - I\n
+        50 - Z \t 22 - W\n23 - E \t 24 - A\n
+        25 - \u0020 \t\u0020 86 - N \n
+        87 - H \t 62 - K\n
+        88 - I \t 89 - C\n
+</string>
+    <string name="description_clue3">Roses are red,\nthe long passages were laid,\nViolets are blue,\nto the hostels too.\nBeware there might be an Onix too.xP </string>
+    <string name="description_clue4">Having endured the pain of Ghazini,\nYet my philosophy stays &#8230; \nPlaces like these are often famous for two spheres;\nOne on your head and One on your hand. </string>
+    <string name="description_clue5">Once upon a time,a small boy called Mohanam came here.The place welcomed the thin,the fat and the enthusiast.\nMany anthills around the place there stood.\nNow go search for the place!</string>
+    <string name="description_clue6">A gift from Ancient Man,\nRound and rusted it still stands.</string>
+    <string name="description_clue7">Centuries ago, like the sons of Dhritarashtra,\nmen were offered a bribe of five scores,\nBut Only one stood firm like a Pole,\nFind who won by justice, Case Closed !</string>
+    <string name="description_clue8">My name is X.\nSmall n\'odd and in my prime,\nWithout a twin,\nFind me and win.</string>
+
+
+    <string name="action_settings">Settings</string>
+</resources>
